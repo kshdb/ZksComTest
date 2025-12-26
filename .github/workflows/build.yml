@@ -27,7 +27,8 @@ jobs:
             arch: arm64
 
     runs-on: ${{ matrix.os }}
-
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # ← 自动 token
     steps:
       # 1. Checkout code
       - name: Checkout repository
