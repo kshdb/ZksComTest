@@ -62,7 +62,7 @@
     },
     "linux": {
       "icon": "build/icon.png",
-      "target": ["deb"],
+      "target": ["AppImage"],
       "category": "Utility"
     },
     "dmg": {
