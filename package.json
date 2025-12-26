@@ -57,14 +57,7 @@
       "artifactName": "${productName}-${version}-mac-${arch}.${ext}"
     },
     "linux": {
-      "target": [
-        {
-          "target": "deb",
-          "arch": [
-            "x64"
-          ]
-        }
-      ],
+      "target": ["deb"],
       "category": "Utility"
     },
     "dmg": {
