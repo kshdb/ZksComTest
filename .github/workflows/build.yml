@@ -28,7 +28,7 @@ jobs:
 
     runs-on: ${{ matrix.os }}
     env:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # ← 自动 token
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}  # ← 自动 token
     steps:
       # 1. Checkout code
       - name: Checkout repository
