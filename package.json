@@ -2,6 +2,10 @@
   "name": "ZksComTest",
   "version": "1.0.0",
   "description": "卓可视串口调试助手,国产系统串口调试工具,麒麟系统串口调试工具、统信串口调试工具",
+  "author": {
+    "name": "卓可视",
+    "email": "zksdb6@163.com"
+  },
   "main": "main.js",
   "scripts": {
     "start": "electron .",
