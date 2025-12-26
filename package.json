@@ -61,6 +61,7 @@
       "artifactName": "${productName}-${version}-mac-${arch}.${ext}"
     },
     "linux": {
+      "icon": "build/icon.png",
       "target": ["deb"],
       "category": "Utility"
     },
